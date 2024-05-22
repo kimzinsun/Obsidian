@@ -1,13 +1,6 @@
-$$
-
-\Huge \textbf {Kim Jin Sun} \\
-
-
-$$
-
-$$
-Backend Engineer
-$$
+---
+title: Kim Jin Sun | Backend
+---
 
 ## INTRODUCE
 
