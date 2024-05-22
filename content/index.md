@@ -1,5 +1,5 @@
 ---
-title: 🎁
+title:
 ---
 
 $$
@@ -14,8 +14,6 @@ Backend Engineer
 $$
 
 ## INTRODUCE
-
----
 
 안녕하세요! 신입 백엔드 개발자 김진선입니다.
 
@@ -33,24 +31,16 @@ $$
 
 ## CONTACT
 
----
-
-📞  01098334241
-
 📩  kwlstjs00@gmail.com
 
 🌐  [https://github.com/kimzinsun](https://github.com/kimzinsun)
 
-📍
-
 ## SKILLS
 
----
+**Language** : `Java`, `JavaScript`, `HTML/CSS` , `Kotlin`
 
-- **Language** : `Java`, `JavaScript`, `HTML/CSS` , `Kotlin`
+**Frameworks** : `SpringBoot`, `Next.js`
 
-- **Frameworks** : `SpringBoot`, `Next.js`
+**Database** : `MySQL` , `Redis`
 
-- **Database** : `MySQL` , `Redis`
-
-- **Tools/IDEs** : `Intellij`, `VS code`, `Git`, `Bitbucket`
+**Tools/IDEs** : `Intellij`, `VS code`, `Git`, `Bitbucket`

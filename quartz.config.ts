@@ -8,13 +8,13 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🌱 ziinsun's blog",
+    pageTitle: "blog.ziinsun.com",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "ko-KR",
+    locale: "en-US",
     baseUrl: "blog.ziinsun.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
