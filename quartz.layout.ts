@@ -29,7 +29,9 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.Darkmode(),
-    Component.TableOfContents()
+    Component.TableOfContents(),
+    Component.Backlinks(),
+
   ],
 }
 
