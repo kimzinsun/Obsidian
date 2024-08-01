@@ -4,7 +4,7 @@ tags:
   - 테스트
   - spring
   - test
-  - JUnit5
+  - Mockito
 date: 24-08-01
 ---
 
@@ -34,6 +34,7 @@ public ProductResponseDto updateProduct(Long id, ProductMypriceRequestDto reques
 라는 의문이 들 수 있다
 
 하지만 우리가 테스트 하고 싶은건 `findById`가 아니라 **서비스에 있는 `update` 코드 자체가 잘 처리되는지이다**
+
 repository가 아니라 service만 테스트 하기 위해 `Mock Object`를 사용할 수 있다
 
 그리고 그 Mock Object를 제공해주는 라이브러리가 Mockito 이다
@@ -90,7 +91,8 @@ void test1() {
 - then
   - assertEquals를 이용해 내가 넣은 myprice와 결과물의 myprice가 같은지 비교해 Update가 잘 수행되고 있는지 확인한다
 
-하지만 이대로 실행하면 오류난다
+하지만 이대로 실행하면 오류가 발생한다
+
 가짜 객체를 만들어 전달해주기만 하는게 아니라 사용 케이스를 제대로 정의해서 넘겨줘야하기 때문이다
 
 > 다시 말하지만 우리는 update가 제대로 되는가? 가 중요한 포인트이다
@@ -131,6 +133,7 @@ void test1() {
 ```
 
 product를 직접 만들어주는 부분이 추가되었다 (User, ProductRequestDto)
+
 그리고 Mockito에 given이라는 method를 이용해 넣어줄 수 있다
 
 ![[스크린샷 2024-08-02 01.07.01.png]]
