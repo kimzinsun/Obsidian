@@ -1,3 +1,5 @@
+지난 [[[Spring] 단위 테스트|단위테스트]] 개념에 이어서 Mockito를 연습해보자
+
 productService에 있는 `update` 코드를 테스트해보자
 
 ```java
