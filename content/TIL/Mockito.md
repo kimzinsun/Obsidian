@@ -4,11 +4,11 @@ tags:
   - 테스트
   - spring
   - test
-  - Mockito
-date: 24-08-02
+  - JUnit5
+date: 24-08-01
 ---
 
-지난 [[[Spring] 단위 테스트]] 개념에 이어서 Mockito를 연습해보자
+지난 [[단위 테스트]] 개념에 이어서 Mockito를 연습해보자
 
 productService에 있는 `update` 코드를 테스트해보자
 
