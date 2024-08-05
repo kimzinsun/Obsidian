@@ -4,8 +4,6 @@ title: Kim Jin Sun | Backend
 
 ## CONTACT
 
-📩  kwlstjs00@gmail.com
-
 🌐  [https://github.com/kimzinsun](https://github.com/kimzinsun)
 
 ## SKILLS
