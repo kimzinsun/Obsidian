@@ -5,7 +5,7 @@ tags:
   - spring
   - test
   - Mockito
-date: 24-08-01
+date: 2024-08-01
 ---
 
 지난 [[단위 테스트]] 개념에 이어서 Mockito를 연습해보자

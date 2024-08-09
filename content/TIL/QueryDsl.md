@@ -1,5 +1,5 @@
 ---
-date : 24-08-07   
+date: 2024-08-07
 ---
 
 # QueryDsl 이란?
@@ -13,28 +13,27 @@ date : 24-08-07
 이때 QueryDsl을 사용하면 메서드를 활용해 쉽게 동적 검색에 사용할 수 있다.
 ~~(다른 곳에도 사용한다고 하지만 여기선 알아보지 말자)~~
 
-
 # QueryDSL 설정
 
 ```
-ext {  
-    set('springCloudVersion', "2023.0.2")  
-    set('querydslVersion', "5.0.0")  // QueryDSL 버전 명시적으로 설정  
+ext {
+    set('springCloudVersion', "2023.0.2")
+    set('querydslVersion', "5.0.0")  // QueryDSL 버전 명시적으로 설정
 }
 
 dependencies {
-	implementation "com.querydsl:querydsl-jpa:${querydslVersion}:jakarta"  
-	annotationProcessor "com.querydsl:querydsl-apt:${querydslVersion}:jakarta"  
-	annotationProcessor "jakarta.annotation:jakarta.annotation-api"  
+	implementation "com.querydsl:querydsl-jpa:${querydslVersion}:jakarta"
+	annotationProcessor "com.querydsl:querydsl-apt:${querydslVersion}:jakarta"
+	annotationProcessor "jakarta.annotation:jakarta.annotation-api"
 	annotationProcessor "jakarta.persistence:jakarta.persistence-api"
 
 	...
 }
 
-def querydslSrcDir = 'src/main/generated'  
-clean {  
-    delete file(querydslSrcDir)  
-}  
+def querydslSrcDir = 'src/main/generated'
+clean {
+    delete file(querydslSrcDir)
+}
 tasks.named('test') { useJUnitPlatform() }
 
 ```
@@ -55,7 +54,6 @@ QueryResults<Product> results = queryFactory
     .limit(pageable.getPageSize())
     .fetchResults();
 ```
-
 
 ```java
 private BooleanExpression nameContains(String name) {
